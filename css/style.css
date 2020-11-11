@@ -8,7 +8,6 @@
 .container {
   width: 1200px;
   margin: 0 auto;
-  background: #ccc;
 }
 
 .fl {
@@ -20,8 +19,8 @@
   display: table;
   clear: both;
 }
-
 /* /utility classes */
+
 .header-img {
   width: 900px;
   height: 400px;
@@ -35,7 +34,7 @@
 
 .box-header {
   background: #15317E;
-  height: 600px;
+  height: 500px;
   width: 100%;
   position: relative;
 }
@@ -53,13 +52,14 @@
 
 .nav-bar ul {
   display: inline-block;
-  text-decoration: none
+  text-decoration: none;
+  /* margin: 0 30px */
 }
 .nav-bar ul li {
   display: inline-block;
   text-transform: uppercase;
   padding: 0 10px;
-  font-size: 12px;
+  font-size: 10px;
   color: #fff
 }
 
@@ -68,15 +68,19 @@
   color: #fff
 }
 
+li a:hover {
+  color: green
+}
+
 .nav-bar img {
-  padding-right: 100px
+  padding-right: 60px
 }
 
 input {
   background: none;
   padding: 5px 30px;
   color: #fff;
-  font-size: 12px;
+  font-size: 10px;
   border-radius: 6px;
   border: 1px solid #fff
 }
@@ -84,9 +88,49 @@ input {
 .header-text {
   color: #fff;
   font-size: 40px;
-  /* border: 1px solid #fff; */
   width: 500px;
   text-align: left;
-  margin: 100px 35px;
+  margin: 20px 35px;
   font-family: "Open Sans"
+}
+
+.info {
+  height: 100px;
+  background: #ccc;
+  text-align: center;
+  padding-top: 30px
+}
+
+.info p:first-child {
+  font-weight: bold;
+  font-size: 20px
+}
+
+.info p:nth-child(2) {
+  color: #666
+}
+
+.row {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto
+}
+
+.first-box {
+  width: 33%;
+  height: 500px;
+  background: blue;
+}
+
+.second-box {
+  width: 33%;
+  height: 500px;
+  background: blue;
+  margin: 0 5px
+}
+
+.third-box {
+  width: 33%;
+  height: 500px;
+  background: blue
 }
