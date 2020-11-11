@@ -40,20 +40,18 @@
 }
 
 .nav-bar {
-  height: 100px;
+  height: 60px;
   width: 100%;
-  /* border: 1px solid red; */
   position: absolute;
   top: 0;
   left: 0;
   text-align: center;
-  line-height: 100px;
+  line-height: 60px;
 }
 
 .nav-bar ul {
   display: inline-block;
   text-decoration: none;
-  /* margin: 0 30px */
 }
 .nav-bar ul li {
   display: inline-block;
@@ -63,7 +61,7 @@
   color: #fff
 }
 
-.nav-bar li a {
+a {
   text-decoration: none;
   color: #fff
 }
@@ -76,7 +74,7 @@ li a:hover {
   padding-right: 60px
 }
 
-input {
+.first-button {
   background: none;
   padding: 5px 30px;
   color: #fff;
@@ -85,13 +83,31 @@ input {
   border: 1px solid #fff
 }
 
+.second-button {
+  background: #7FE817;
+  padding: 5px 7px;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 6px;
+  border: 1px solid #7FE817
+}
+
 .header-text {
   color: #fff;
   font-size: 40px;
   width: 500px;
   text-align: left;
-  margin: 20px 35px;
+  margin: 100px 35px;
   font-family: "Open Sans"
+}
+
+.third-button {
+  background: #7FE817;
+  padding: 12px 9px;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid #7FE817
 }
 
 .info {
@@ -119,18 +135,18 @@ input {
 .first-box {
   width: 33%;
   height: 500px;
-  background: blue;
+  background: #666;
 }
 
 .second-box {
   width: 33%;
   height: 500px;
-  background: blue;
+  background: #666;
   margin: 0 5px
 }
 
 .third-box {
   width: 33%;
   height: 500px;
-  background: blue
+  background: #666
 }
