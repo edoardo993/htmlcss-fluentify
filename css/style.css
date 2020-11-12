@@ -21,6 +21,15 @@
 }
 /* /utility classes */
 
+/* definisco le caratteristiche dell'header */
+.box-header {
+  background: #2B547E;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+/* definisco le caratteristiche dell'immagine dell'header */
 .header-img {
   width: 900px;
   height: 400px;
@@ -32,27 +41,26 @@
   right: 0
 }
 
-.box-header {
-  background: #15317E;
-  height: 500px;
-  width: 100%;
-  position: relative;
-}
-
+/* definisco le caratteristiche della barra di navigazione */
 .nav-bar {
   height: 60px;
   width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
   text-align: center;
   line-height: 60px;
 }
 
+/* definisco le caratteristiche dell'icona dell'header */
+.nav-bar img {
+  padding-right: 60px;
+}
+
+/* definisco le caratteristiche della lista della nav-bar */
 .nav-bar ul {
   display: inline-block;
   text-decoration: none;
 }
+
+/* definisco le caratteristiche dei list items */
 .nav-bar ul li {
   display: inline-block;
   text-transform: uppercase;
@@ -61,19 +69,19 @@
   color: #fff
 }
 
+/* definisco le caratteristiche dei link */
 a {
   text-decoration: none;
-  color: #fff
+  color: #fff;
+  text-transform: uppercase;
 }
 
+/* imposto il colore verde al passaggio del mouse sui link della lista */
 li a:hover {
   color: green
 }
 
-.nav-bar img {
-  padding-right: 60px
-}
-
+/* definisco le caratteristiche del primo button */
 .first-button {
   background: none;
   padding: 5px 30px;
@@ -83,6 +91,7 @@ li a:hover {
   border: 1px solid #fff
 }
 
+/* definisco le caratteristiche del secondo button */
 .second-button {
   background: #7FE817;
   padding: 5px 7px;
@@ -92,6 +101,7 @@ li a:hover {
   border: 1px solid #7FE817
 }
 
+/* definisco le caratteristiche del testo dell'header */
 .header-text {
   color: #fff;
   font-size: 40px;
@@ -101,6 +111,7 @@ li a:hover {
   font-family: "Open Sans"
 }
 
+/* definisco le caratteristiche del terzo button */
 .third-button {
   background: #7FE817;
   padding: 12px 9px;
@@ -110,6 +121,7 @@ li a:hover {
   border: 1px solid #7FE817
 }
 
+/* definisco le caratteristiche del testo sotto all'header */
 .info {
   height: 100px;
   background: #ccc;
@@ -117,36 +129,182 @@ li a:hover {
   padding-top: 30px
 }
 
+/* definisco le caratteristiche del primo paragrafo sotto l'header */
 .info p:first-child {
   font-weight: bold;
   font-size: 20px
 }
 
+/* definisco le caratteristiche del secondo paragrafo sotto l'header */
 .info p:nth-child(2) {
   color: #666
 }
 
+/* definisco le caratteristiche della prima row */
 .row {
   width: 1000px;
-  height: 600px;
-  margin: 0 auto
+  margin: 40px auto
 }
 
+/* definisco le caratteristiche del primo box della prima row */
 .first-box {
   width: 33%;
-  height: 500px;
-  background: #666;
+  padding: 0 10px
 }
 
+/* definisco le caratteristiche dell'immagine del primo box della prima row */
+.img-profile {
+  background: url(../img/profile.svg);
+  width: 40%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px auto;
+}
+
+/* definisco le caratteristiche dell'h4 del primo box della prima row */
+.row h4 {
+  color: #7FE817;
+  text-align: center;
+  font-size: 22px;
+}
+
+/* imposto un margine per l'hr */
+hr {
+  margin: 15px 110px
+}
+
+/* definisco le caratteristiche del paragrafo del primo box della prima row */
+.row p {
+  color: #666;
+  text-align: center;
+  font-size: 13px;
+  padding: 0 15px
+}
+
+/* definisco le caratteristiche del secondo box della prima row */
 .second-box {
   width: 33%;
-  height: 500px;
-  background: #666;
-  margin: 0 5px
+  margin: 0 5px;
+  padding: 0 10px
 }
 
+/* definisco le caratteristiche dell'immagine del secondo box della prima row */
+.img-computer {
+  background: url(../img/computer.svg);
+  width: 70%;
+  height: 150px;
+  background-size: cover;
+  margin: 10px auto;
+}
+
+/* definisco le caratteristiche del terzo box */
 .third-box {
   width: 33%;
-  height: 500px;
-  background: #666
+  padding: 0 10px
+}
+
+/* definisco le caratteristiche dell'immagine del terzo box della prima row */
+.img-doc {
+  background: url(../img/doc.svg);
+  width: 50%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px auto;
+}
+
+/* definisco le caratteristiche della seconda row */
+.second-row {
+  width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+/* definisco le caratteristiche del primo blocco della seconda row */
+.first-block {
+  width: 50%;
+}
+
+/* definisco le caratteristiche dell'immagine del primo blocco della seconda row */
+.img-mountain {
+  background: url(../img/mountain.svg);
+  width: 90%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+/* definisco le caratteristiche del secondo blocco della seconda row */
+.second-block {
+  width: 38%;
+  padding: 10px 0
+}
+
+/* definisco le caratteristiche dello span del secondo blocco della seconda row */
+.second-block span {
+  font-size: 30px
+}
+
+/* definisco le caratteristiche del paragrafo del secondo blocco della prima row */
+.second-block p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #666
+}
+
+/* definisco le caratteristiche del footer */
+footer {
+  width: 1200px;
+  height: 100px;
+  background: #ccc;
+  position: relative;
+}
+
+/* definisco le caratteristiche del primo float del footer */
+.first-content {
+  width: 30%;
+}
+
+/* definisco le caratteristiche dello span del footer */
+.first-content span {
+  line-height: 100px;
+  margin: 0 80px;
+  font-size: 25px
+}
+
+/* definisco le caratteristiche del secondo blocco float */
+.second-content {
+  width: 50%;
+  line-height: 100px;
+  position: absolute;
+  right: 120px;
+  text-align: right;
+}
+
+/* definisco le caratteristiche */
+.second-content label {
+  color: #666;
+  display: inline-block;
+  padding-right: 30px
+}
+
+/* definisco le caratteristiche del select del footer */
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 250px;
+  height: 50px;
+  cursor: crosshair;
+  background: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #666;
+  border-radius: 0;
+  width: 100px;
+  color: #666;
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 40px
 }
